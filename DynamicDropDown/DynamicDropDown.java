@@ -65,6 +65,6 @@ public class DynamicDropDown {
 		Driver.findElement(By.xpath("//input[@id='ctl00_mainContent_chk_StudentDiscount']")).click();
 
 		Driver.findElement(By.xpath("//input[@id='ctl00_mainContent_btn_FindFlights']")).click();
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	}
 }
