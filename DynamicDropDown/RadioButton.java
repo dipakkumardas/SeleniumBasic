@@ -29,6 +29,7 @@ public class RadioButton {
 			if(text.equals("Cheese"))
 			{
 				Driver.findElements(By.xpath(("//input[@name='group1']"))).get(i).click();
+				Driver.findElements(By.xpath(("//input[@name='group1']"))).get(i).click();
 				//Driver.findElements(By.xpath(("//input[@name='group2']"))).get(i).click();1111
 			}
 			
